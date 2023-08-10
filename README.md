@@ -2,7 +2,7 @@
    <img src="https://weathergpt.vercel.app/opengraph-image.png" alt="OG Image">
 </a>
 
-<h1 align="center">WeatherGPT</h3>
+<h1 align="center">ImageGPT</h3>
 
 <p align="center">
    A ChatGPT Plugin starter template built with Next.js 13 App Router, Edge Functions, and Vercel
@@ -19,7 +19,7 @@
 
 ## Introduction
 
-WeatherGPT is a ChatGPT Plugin to get the weather of any given location.
+ImageGPT is a ChatGPT Plugin to get the weather of any given location.
 
 https://user-images.githubusercontent.com/28986134/231841036-80da6d5b-b1dd-46e8-881e-4034529bcd1e.mp4
 
@@ -53,7 +53,7 @@ https://user-images.githubusercontent.com/28986134/231842599-ab80ccc2-b1c2-4d24-
 
 You can deploy your own hosted version of this plugin to Vercel with one-click:
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?demo-title=WeatherGPT+%E2%80%93%C2%A0ChatGPT+Plugin+Starter&demo-description=The+ultimate+ChatGPT+Plugin+starter+template.+WeatherGPT+is+a+ChatGPT+Plugin+to+get+the+weather+of+any+given+location.&demo-url=https%3A%2F%2Fweathergpt.vercel.app%2F&demo-image=%2F%2Fimages.ctfassets.net%2Fe5382hct74si%2F7Ft2fS9gtS9XtxUNVJJENP%2F04a68855bda0524982d3c15cbd2628ac%2FCleanShot_2023-04-13_at_12.37.09.png&project-name=WeatherGPT+%E2%80%93%C2%A0ChatGPT+Plugin+Starter&repository-name=weathergpt&repository-url=https%3A%2F%2Fgithub.com%2Fsteven-tey%2Fweathergpt&from=templates&skippable-integrations=1&env=WEATHER_API_KEY&envDescription=Get+your+WeatherAPI+key+here%3A&envLink=https%3A%2F%2Fwww.weatherapi.com%2F&teamCreateStatus=hidden)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?demo-title=ImageGPT+%E2%80%93%C2%A0ChatGPT+Plugin+Starter&demo-description=The+ultimate+ChatGPT+Plugin+starter+template.+ImageGPT+is+a+ChatGPT+Plugin+to+get+the+weather+of+any+given+location.&demo-url=https%3A%2F%2Fweathergpt.vercel.app%2F&demo-image=%2F%2Fimages.ctfassets.net%2Fe5382hct74si%2F7Ft2fS9gtS9XtxUNVJJENP%2F04a68855bda0524982d3c15cbd2628ac%2FCleanShot_2023-04-13_at_12.37.09.png&project-name=ImageGPT+%E2%80%93%C2%A0ChatGPT+Plugin+Starter&repository-name=weathergpt&repository-url=https%3A%2F%2Fgithub.com%2Fsteven-tey%2Fweathergpt&from=templates&skippable-integrations=1&env=WEATHER_API_KEY&envDescription=Get+your+WeatherAPI+key+here%3A&envLink=https%3A%2F%2Fwww.weatherapi.com%2F&teamCreateStatus=hidden)
 
 Once you're done, don't forget to change all instances of `weathergpt.vercel.app` in the codebase to your app's URL:
 

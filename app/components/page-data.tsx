@@ -14,7 +14,7 @@ export function PageData({ data }: { data: any }) {
         >
           Deploy your own to Vercel
         </a>
-        <h1>WeatherGPT</h1>
+        <h1>ImageGPT</h1>
         <p className="description">
           ChatGPT Plugin to get the weather of any given location
         </p>
@@ -23,13 +23,12 @@ export function PageData({ data }: { data: any }) {
           <div className="info">
             <span>Your Location</span>
             <span className="region">
-              <strong>{data.location.name}</strong>
+              <strong>{data?.location?.name}</strong>
             </span>
           </div>
           <div className="info">
             <span>Current Temperature</span>
             <strong>
-              {data.current.temp_c}°C / {data.current.temp_f}°F
             </strong>
           </div>
         </div>

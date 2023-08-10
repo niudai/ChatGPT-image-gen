@@ -70,7 +70,7 @@ export default async function LocationOG({
               lineHeight: 1.8,
             }}
           >
-            {data.location.name} Weather Data
+            {data?.location?.name} Weather Data
           </b>
           <div
             tw="flex"
