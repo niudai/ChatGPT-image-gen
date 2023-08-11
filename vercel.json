@@ -1,0 +1,17 @@
+{
+  "rewrites": [
+    {
+      "source": "/.well-known/:match*",
+      "destination": "https://evsigrgd36.us.aircode.run/.well-known/:match*"
+    },
+    {
+      "source": "/openapi.yaml",
+      "destination": "https://evsigrgd36.us.aircode.run/openapi.yaml"
+    },
+    {
+      "source": "/api/:match*",
+      "destination": "https://evsigrgd36.us.aircode.run/api/:match*"
+    }
+  ],
+  "trailingSlash": false
+}
